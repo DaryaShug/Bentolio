@@ -1,0 +1,40 @@
+@use './fonts';
+@use './vars';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: var(--col-text);
+    }
+    &:visited {
+        color: var(--col-text);
+    }
+
+}
+
+img {
+    display: block;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    background-color: var(--col-bg);
+    color: var(--col-text);
+}
