@@ -13,7 +13,7 @@ li {
 
 a {
     text-decoration: none;
-    color: var(--col-text);
+    color: var(--col-text) !important;
 
     &:hover {
         cursor: pointer;
