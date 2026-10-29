@@ -46,6 +46,7 @@ li {
 
 a {
   text-decoration: none;
+  color: var(--col-text);
 }
 a:hover {
   cursor: pointer;
